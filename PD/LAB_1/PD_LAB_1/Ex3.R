@@ -15,36 +15,48 @@ m=matrix(1:4,nrow=4,ncol=4)
 print(m)
 
 #ex4
-print("Matrice1 nr randuri -> ")
-print(nrow(matrice1))
-#dimensiunile matrice1
+# Afișăm un mesaj care indică numărul de rânduri ale matricei1
+print(paste("Matrice1 nr randuri -> ", nrow(matrice1)))
+
+# Folosim funcția "dim" pentru a obține dimensiunile matricei1
 dim(matrice1)
-#nr de coloane al matricei1
+
+# Folosim funcția "ncol" pentru a obține numărul de coloane al matricei1
 ncol(matrice1)
-#nr de randuri al matricei1
+
+# Folosim funcția "nrow" pentru a obține numărul de rânduri al matricei1
 nrow(matrice1)
-#imultim matrice1 cu matrice2 cu ajutorul %%
-resultat= matrice1 %*% matrice2
+
+# Înmulțim matrice1 cu matrice2 folosind operatorul "%*%" și salvăm rezultatul în variabila "rezultat"
+resultat = matrice1 %*% matrice2
 print(resultat)
 
-#printam transpusa unei matrici
+# Afișăm transpusa matricei1 folosind funcția "t"
 print(t(matrice1))
 
-#printam diagonala matricei resultat 
-#creata in urma inmultirii celor 2
+# Afișăm diagonala matricei "resultat" utilizând funcția "diag"
 print(diag(resultat))
 
-#printam o diagonala intr-o matrice cu 0
-print(diag(c(3,2,4)))
+# Afișăm o matrice diagonală cu valorile specificate (3, 2, 4)
+print(diag(c(3, 2, 4)))
 
-vector1 <- c(8,4,5)
-vector2 <- c(3,4,2)
+# Definim doi vectori "vector1" și "vector2"
+vector1 <- c(8, 4, 5)
+vector2 <- c(3, 4, 2)
+
+# Folosim funcția "rbind" pentru a combina cei doi vectori într-o matrice
 res = rbind(vector1, vector2)
 print(res)
-vector3 <- c(9,3)
+
+# Definim un al treilea vector "vector3"
+vector3 <- c(9, 3)
+
+# Folosim funcția "cbind" pentru a adăuga "vector3" la matricea "res"
 print(cbind(res, vector3))
 
+# Calculăm valorile proprii ale matricei "m" folosind funcția "eigen" și le afișăm
 print(eigen(m))
+
 
 #ex5
 #printeaza primul rand al matricii resultat

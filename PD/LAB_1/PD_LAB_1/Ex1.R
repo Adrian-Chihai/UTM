@@ -1,5 +1,4 @@
-#printeaza elementele incepand de la 2 pana la 4
-#printeaza elementele incepand de la 9 pana la 13
+#printeaza elementele incepand de la 2 pana la 4 urmate de cele de la 9 pana la 13
 x<-c(2:4,9:13)
 print(x)
 #printteaza caracterele din ""
@@ -23,5 +22,5 @@ print(x[c(2,2,5 :7)])
 print(x[6 :1])
 #elimina elementele de la pozitia 1 pana la 4
 print(x[-(1 : 4)])
-
-print(x[-c(1,4)])  
+#elimina elementele de pe pozitia 1 si 4
+print(x[-c(1 , 4)])  

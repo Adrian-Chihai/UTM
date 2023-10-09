@@ -33,6 +33,7 @@ print(liniile_124)
 liniile_26 <- airquality[2:6, ]
 print(liniile_26)
 
+
 toate_exceptie_12 <- airquality[, -c(1, 2)]
 print(toate_exceptie_12)
 
