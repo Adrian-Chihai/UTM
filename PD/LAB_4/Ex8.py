@@ -5,7 +5,6 @@ def mean3Grades(gradesList):
 
     return sum(gradesList) / 3
 
-
 grades = {
 "s1": [10, 10, 9],
 "s2": [5, 6],

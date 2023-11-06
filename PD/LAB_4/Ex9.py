@@ -1,7 +1,7 @@
 print("Ex9")
 
 def printSumNr(limit):
-    if(limit == 1):
+    if limit == 1:
         return 1
     return limit + printSumNr(limit - 1)
 
