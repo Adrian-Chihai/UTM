@@ -1,4 +1,3 @@
-# Ex 1
 print("EX: 1")
 mathNr = {
     "pi": 3.1415926,

@@ -1,7 +1,7 @@
 import math
 import random
 import time
-#Ex 2
+
 print("EX: 2")
 
 nr = random.randint(0, 10000)

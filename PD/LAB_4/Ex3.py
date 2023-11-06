@@ -1,4 +1,3 @@
-#Ex 3
 print("Ex 3")
 nr1 = 4
 nr2 = 5
