@@ -5,7 +5,7 @@ import time
 print("EX: 2")
 
 nr = random.randint(0, 10000)
-print(nr)
+print(f"nr generat -> {nr}")
 timeConvertedLib = time.strftime("%H:%M:%S", time.gmtime(nr))
 print("library method -> ", timeConvertedLib)
 

@@ -13,8 +13,8 @@ findC = "b"
 
 for fun in funList:
     if funList.index(fun) == 0:
-        print(fun(wordIndex))
+        print(f"index 1 -> {fun(wordIndex)}")
     elif funList.index(fun) == 1:
-        print(fun(findUppercase))
+        print(f"cuvantul scrisc cu majuscule -> {fun(findUppercase)}")
     else:
-        print(fun(wordIndex, findC))
+        print(f"cauta 'b' -> {fun(wordIndex, findC)}")
