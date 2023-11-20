@@ -20,7 +20,7 @@ def get_weather(url, csv_name):
         buttons = soup.find_all('button', class_='Button--default--2gfm1')
 
         with open(f'{csv_name}.csv', 'w', newline='') as csvfile:
-            fieldnames = ['Date', 'High Temperature (°C)', 'Low Temperature (°C)']
+            fieldnames = ['D', 'H Temp', 'L Temp']
             csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
             csv_writer.writeheader()
@@ -45,7 +45,7 @@ def get_weather(url, csv_name):
                 low_temp_c = fahrenheit_to_celsius(low_temp_str)
 
                 csv_writer.writerow(
-                    {'Date': date, 'High Temperature (°C)': high_temp_c, 'Low Temperature (°C)': low_temp_c})
+                    {'D': date, 'H Temp': high_temp_c, 'L Temp': low_temp_c})
 
                 print(f"Date: {date}")
                 print(f"High Temperature: {high_temp_c}°C")

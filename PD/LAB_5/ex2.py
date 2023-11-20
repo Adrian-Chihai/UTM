@@ -13,18 +13,28 @@ def find_rating(default_url):
 
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'html.parser')
-            book_titles = soup.find_all('h3')
-            stars = soup.find_all('p', class_='star-rating')
-            for title, rating in zip(book_titles, stars):
-                if 'Two' in rating['class']:
-                    books.append(title.a['title'])
 
-            change_page = soup.find('li', class_='next')
-            if not change_page:
-                break
+            # Find all list items that potentially contain book information
+            book_items = soup.find_all('article', class_='product_pod')
+
+            for book_item in book_items:
+                # Extract title
+                title_element = book_item.find('h3')
+                if title_element:
+                    title = title_element.a['title']
+
+                    # Extract star rating
+                    rating_element = book_item.find('p', class_='star-rating Two')
+
+                    # Check if the book has a 2-star rating
+                    if rating_element:
+                        books.append(title)
+
+            # Move on to the next page
             page_nr += 1
         else:
-            print(f"Can't go to page {page_nr}")
+            print(f"Can't go to page {page_nr}\n")
+            break;
 
     return books
 

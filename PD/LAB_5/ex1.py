@@ -15,9 +15,9 @@ def wiki_sections(url):
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')
     sections = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
-    print(f"Sections")
+    print(f"Sections:")
     for section in sections:
-        print(f"{section.text.strip()}")
+        print(f"{section.text}")
 
 def wiki_photo(url):
     res = requests.get(url)
@@ -26,6 +26,7 @@ def wiki_photo(url):
     save_dir = 'img'
 
     counter = 0;
+    print("\nImages: ")
     for image in images:
         name = f"image_{counter} : "
         link = image['src']
