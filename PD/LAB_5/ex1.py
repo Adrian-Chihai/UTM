@@ -1,3 +1,5 @@
+import os
+
 from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urljoin
@@ -20,21 +22,23 @@ def wiki_sections(url):
 def wiki_photo(url):
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')
-    figure_element = soup.find('figure', class_='mw-default-size')
-    image_element = figure_element.find('img')
-    image_url = image_element['src']
-    absolute_image_url = urljoin(url, image_url)
-    caption = figure_element.find('figcaption').text
-    print(f"Image URL: {absolute_image_url}")
-    print(f"Caption: {caption}")
-    image_response = requests.get(absolute_image_url)
-    with open("downloaded_image.png", "wb") as f:
-        f.write(image_response.content)
+    images = soup.find_all('img')
+    save_dir = 'img'
 
-    print("Image downloaded successfully.")
+    counter = 0;
+    for image in images:
+        name = f"image_{counter} : "
+        link = image['src']
+        absolute_url = urljoin(url, link)
+        print(f"{name} : {absolute_url}")
+        file_name = f'image_{counter}.jpg'
+        file_path = os.path.join(save_dir, file_name)
+        with open(file_path, 'wb') as f:
+            im = requests.get(absolute_url)
+            f.write(im.content)
+        counter += 1
 
-
-url = "https://en.wikipedia.org/wiki/Steam_(service)"
+url = "https://en.wikipedia.org/wiki/Minecraft"
 wiki_title(url)
 wiki_sections(url)
 wiki_photo(url)
