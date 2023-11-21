@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-
-
+#modifica temperatura daca e -- sa returnezi o valoare medie
 def fahrenheit_to_celsius(fahrenheit):
     if '--' in fahrenheit:
         return 0
