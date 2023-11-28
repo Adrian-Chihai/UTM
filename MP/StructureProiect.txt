@@ -1,0 +1,18 @@
+Introducere: (+) 
+Capitolul 1: 
+	- Carta proiectului (constituie 9 subiecte);
+Capitolul 2: 
+	- Analiza partilor interesate (stakeholderi);
+	- Identificare cerintelor stakeholderilor, care au fost realizate pe baza intervievarii orale;
+Capitolul 3:
+	- Structura defalcata a activitatilor;
+	- Estimarea resurselor;
+	- Planul resurselor umane;
+	- Matricea de atribuire a responsabilitatilor;
+	- Estimarea duratei activitatilor;
+Capitolul 4:
+	- Graficul de exceptie (Diagrama Gantt);
+	- Estimarea bugetului (6 subiecte);
+Capitolul 5:
+	- Managementul comunicarii;
+	- Managementul riscurilor (riscuri initiale, riscurile in executie, riscurile in incheiere);
