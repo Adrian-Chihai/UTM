@@ -1,0 +1,1269 @@
+/var/log/dmesg:[    0.000000] kernel: BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/dmesg:[    0.000000] kernel: BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/dmesg:[    0.000000] kernel: BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/dmesg:[    0.000000] kernel: efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/dmesg:[    0.005721] kernel: ACPI: Early table checksum verification disabled
+/var/log/dmesg:[    0.005727] kernel: ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/dmesg:[    0.005733] kernel: ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005742] kernel: ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005751] kernel: ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/dmesg:[    0.005757] kernel: ACPI: FACS 0x0000000079B18080 000040
+/var/log/dmesg:[    0.005762] kernel: ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005767] kernel: ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005772] kernel: ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/dmesg:[    0.005777] kernel: ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/dmesg:[    0.005781] kernel: ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005786] kernel: ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005791] kernel: ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005796] kernel: ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005801] kernel: ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005805] kernel: ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005810] kernel: ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005815] kernel: ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/dmesg:[    0.005820] kernel: ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/dmesg:[    0.005825] kernel: ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/dmesg:[    0.005830] kernel: ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/dmesg:[    0.005835] kernel: ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/dmesg:[    0.005840] kernel: ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/dmesg:[    0.005845] kernel: ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/dmesg:[    0.005850] kernel: ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/dmesg:[    0.005855] kernel: ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005860] kernel: ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/dmesg:[    0.005864] kernel: ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg:[    0.005869] kernel: ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/dmesg:[    0.005874] kernel: ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg:[    0.005878] kernel: ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/dmesg:[    0.005880] kernel: ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/dmesg:[    0.005882] kernel: ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/dmesg:[    0.005883] kernel: ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/dmesg:[    0.005885] kernel: ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/dmesg:[    0.005886] kernel: ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/dmesg:[    0.005887] kernel: ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/dmesg:[    0.005889] kernel: ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/dmesg:[    0.005890] kernel: ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/dmesg:[    0.005892] kernel: ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/dmesg:[    0.005893] kernel: ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/dmesg:[    0.005894] kernel: ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/dmesg:[    0.005896] kernel: ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/dmesg:[    0.005897] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/dmesg:[    0.005899] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/dmesg:[    0.005900] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/dmesg:[    0.005901] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/dmesg:[    0.005903] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/dmesg:[    0.005904] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/dmesg:[    0.005906] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/dmesg:[    0.005907] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/dmesg:[    0.005909] kernel: ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/dmesg:[    0.005910] kernel: ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/dmesg:[    0.005912] kernel: ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/dmesg:[    0.005913] kernel: ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/dmesg:[    0.005915] kernel: ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/dmesg:[    0.005916] kernel: ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/dmesg:[    0.018958] kernel: ACPI: PM-Timer IO Port: 0x408
+/var/log/dmesg:[    0.018980] kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/dmesg:[    0.018986] kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/dmesg:[    0.018987] kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/dmesg:[    0.018989] kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/dmesg:[    0.019028] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/dmesg:[    0.019031] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/dmesg:[    0.019037] kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/dmesg:[    0.019039] kernel: ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/dmesg:[    0.079120] kernel: ACPI: Core revision 20221020
+/var/log/dmesg:[    0.191587] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/dmesg:[    0.191598] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/dmesg:[    0.199570] kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/dmesg:[    0.207691] kernel: ACPI: Added _OSI(Module Device)
+/var/log/dmesg:[    0.207693] kernel: ACPI: Added _OSI(Processor Device)
+/var/log/dmesg:[    0.207695] kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/dmesg:[    0.207696] kernel: ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/dmesg:[    0.276535] kernel: ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/dmesg:[    0.283639] kernel: ACPI: EC: EC started
+/var/log/dmesg:[    0.283640] kernel: ACPI: EC: interrupt blocked
+/var/log/dmesg:[    0.284277] kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/dmesg:[    0.284279] kernel: ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/dmesg:[    0.331968] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg:[    0.331968] kernel: ACPI: SSDT 0xFFFF927D011AD800 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/dmesg:[    0.335995] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg:[    0.336002] kernel: ACPI: SSDT 0xFFFF927D011ADA00 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/dmesg:[    0.340015] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg:[    0.340021] kernel: ACPI: SSDT 0xFFFF927D00CDF600 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/dmesg:[    0.348048] kernel: ACPI: Interpreter enabled
+/var/log/dmesg:[    0.348087] kernel: ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/dmesg:[    0.348089] kernel: ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.355966] kernel: PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/dmesg:[    0.355996] kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/dmesg:[    0.356485] kernel: ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/dmesg:[    0.380115] kernel: ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.380436] kernel: ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.383738] kernel: ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.384055] kernel: ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.384372] kernel: ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.387968] kernel: ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/dmesg:[    0.388510] kernel: ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/dmesg:[    0.412524] kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/dmesg:[    0.456348] kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/dmesg:[    0.456459] kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/dmesg:[    0.459550] kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/dmesg:[    0.459657] kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/dmesg:[    0.459762] kernel: ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/dmesg:[    0.459878] kernel: ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/dmesg:[    0.459984] kernel: ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/dmesg:[    0.460090] kernel: ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/dmesg:[    0.491845] kernel: ACPI: EC: interrupt unblocked
+/var/log/dmesg:[    0.491847] kernel: ACPI: EC: event unblocked
+/var/log/dmesg:[    0.491865] kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/dmesg:[    0.491867] kernel: ACPI: EC: GPE=0x25
+/var/log/dmesg:[    0.491869] kernel: ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/dmesg:[    0.491872] kernel: ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/dmesg:[    0.495801] kernel: ACPI: bus type USB registered
+/var/log/dmesg:[    0.503912] kernel: PCI: Using ACPI for IRQ routing
+/var/log/dmesg:[    0.655024] kernel: pnp: PnP ACPI init
+/var/log/dmesg:[    0.656667] kernel: pnp: PnP ACPI: found 4 devices
+/var/log/dmesg:[    0.678457] kernel: ACPI: AC: AC Adapter [AC0] (on-line)
+/var/log/dmesg:[    0.678547] kernel: ACPI: button: Power Button [PWRB]
+/var/log/dmesg:[    0.678605] kernel: ACPI: button: Lid Switch [LID]
+/var/log/dmesg:[    0.678672] kernel: ACPI: button: Sleep Button [SLPB]
+/var/log/dmesg:[    0.678729] kernel: ACPI: button: Power Button [PWRB]
+/var/log/dmesg:[    0.681746] kernel: ACPI: thermal: Thermal Zone [THRM] (29 C)
+/var/log/dmesg:[    0.692443] kernel: ACPI: battery: Slot [BAT0] (battery present)
+/var/log/dmesg:[   13.168352] kernel: ACPI: bus type drm_connector registered
+/var/log/dmesg:[   19.835264] kernel: ACPI: battery: new extension: ASUS Battery Extension
+/var/log/dmesg:[   28.080916] kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/dmesg.0:[    0.000000] kernel: BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/dmesg.0:[    0.000000] kernel: BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/dmesg.0:[    0.000000] kernel: BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/dmesg.0:[    0.000000] kernel: efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/dmesg.0:[    0.006152] kernel: ACPI: Early table checksum verification disabled
+/var/log/dmesg.0:[    0.006158] kernel: ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/dmesg.0:[    0.006165] kernel: ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006174] kernel: ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006184] kernel: ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/dmesg.0:[    0.006190] kernel: ACPI: FACS 0x0000000079B18080 000040
+/var/log/dmesg.0:[    0.006195] kernel: ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006200] kernel: ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006205] kernel: ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/dmesg.0:[    0.006209] kernel: ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/dmesg.0:[    0.006214] kernel: ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006219] kernel: ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006224] kernel: ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006228] kernel: ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006233] kernel: ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006237] kernel: ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006242] kernel: ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006247] kernel: ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/dmesg.0:[    0.006252] kernel: ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/dmesg.0:[    0.006257] kernel: ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.006262] kernel: ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.006267] kernel: ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.006272] kernel: ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.006277] kernel: ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.006282] kernel: ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/dmesg.0:[    0.006287] kernel: ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006291] kernel: ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/dmesg.0:[    0.006296] kernel: ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/dmesg.0:[    0.006300] kernel: ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/dmesg.0:[    0.006305] kernel: ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/dmesg.0:[    0.006309] kernel: ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/dmesg.0:[    0.006311] kernel: ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/dmesg.0:[    0.006313] kernel: ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/dmesg.0:[    0.006314] kernel: ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/dmesg.0:[    0.006315] kernel: ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/dmesg.0:[    0.006317] kernel: ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/dmesg.0:[    0.006318] kernel: ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/dmesg.0:[    0.006320] kernel: ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/dmesg.0:[    0.006321] kernel: ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/dmesg.0:[    0.006322] kernel: ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/dmesg.0:[    0.006324] kernel: ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/dmesg.0:[    0.006325] kernel: ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/dmesg.0:[    0.006327] kernel: ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/dmesg.0:[    0.006328] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/dmesg.0:[    0.006329] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/dmesg.0:[    0.006331] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/dmesg.0:[    0.006332] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/dmesg.0:[    0.006334] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/dmesg.0:[    0.006335] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/dmesg.0:[    0.006337] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/dmesg.0:[    0.006338] kernel: ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/dmesg.0:[    0.006339] kernel: ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/dmesg.0:[    0.006341] kernel: ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/dmesg.0:[    0.006342] kernel: ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/dmesg.0:[    0.006344] kernel: ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/dmesg.0:[    0.006345] kernel: ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/dmesg.0:[    0.006347] kernel: ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/dmesg.0:[    0.019414] kernel: ACPI: PM-Timer IO Port: 0x408
+/var/log/dmesg.0:[    0.019430] kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/dmesg.0:[    0.019433] kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/dmesg.0:[    0.019435] kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/dmesg.0:[    0.019436] kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/dmesg.0:[    0.019476] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/dmesg.0:[    0.019479] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/dmesg.0:[    0.019484] kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/dmesg.0:[    0.019486] kernel: ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/dmesg.0:[    0.079563] kernel: ACPI: Core revision 20221020
+/var/log/dmesg.0:[    0.232060] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/dmesg.0:[    0.232060] kernel: ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/dmesg.0:[    0.244288] kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/dmesg.0:[    0.255982] kernel: ACPI: Added _OSI(Module Device)
+/var/log/dmesg.0:[    0.255984] kernel: ACPI: Added _OSI(Processor Device)
+/var/log/dmesg.0:[    0.255985] kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/dmesg.0:[    0.255987] kernel: ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/dmesg.0:[    0.384178] kernel: ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/dmesg.0:[    0.392172] kernel: ACPI: EC: EC started
+/var/log/dmesg.0:[    0.392174] kernel: ACPI: EC: interrupt blocked
+/var/log/dmesg.0:[    0.396231] kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/dmesg.0:[    0.396233] kernel: ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/dmesg.0:[    0.480370] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg.0:[    0.480385] kernel: ACPI: SSDT 0xFFFF98C8C11ADE00 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/dmesg.0:[    0.488558] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg.0:[    0.491988] kernel: ACPI: SSDT 0xFFFF98C8C11AD200 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.496438] kernel: ACPI: Dynamic OEM Table Load:
+/var/log/dmesg.0:[    0.496445] kernel: ACPI: SSDT 0xFFFF98C8C0E3C500 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/dmesg.0:[    0.512213] kernel: ACPI: Interpreter enabled
+/var/log/dmesg.0:[    0.512252] kernel: ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/dmesg.0:[    0.512255] kernel: ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg.0:[    0.524426] kernel: PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/dmesg.0:[    0.524452] kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/dmesg.0:[    0.528360] kernel: ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/dmesg.0:[    0.568325] kernel: ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.572076] kernel: ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.572397] kernel: ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.576139] kernel: ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.576460] kernel: ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.580498] kernel: ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/dmesg.0:[    0.584479] kernel: ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/dmesg.0:[    0.628249] kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/dmesg.0:[    0.704378] kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/dmesg.0:[    0.704486] kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/dmesg.0:[    0.708016] kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/dmesg.0:[    0.708126] kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/dmesg.0:[    0.708232] kernel: ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/dmesg.0:[    0.708337] kernel: ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/dmesg.0:[    0.708443] kernel: ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/dmesg.0:[    0.708555] kernel: ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/dmesg.0:[    0.760357] kernel: ACPI: EC: interrupt unblocked
+/var/log/dmesg.0:[    0.760360] kernel: ACPI: EC: event unblocked
+/var/log/dmesg.0:[    0.760378] kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/dmesg.0:[    0.760380] kernel: ACPI: EC: GPE=0x25
+/var/log/dmesg.0:[    0.760382] kernel: ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/dmesg.0:[    0.760385] kernel: ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/dmesg.0:[    0.768017] kernel: ACPI: bus type USB registered
+/var/log/dmesg.0:[    0.776015] kernel: PCI: Using ACPI for IRQ routing
+/var/log/dmesg.0:[    1.016511] kernel: pnp: PnP ACPI init
+/var/log/dmesg.0:[    1.018147] kernel: pnp: PnP ACPI: found 4 devices
+/var/log/dmesg.0:[    1.043533] kernel: ACPI: AC: AC Adapter [AC0] (on-line)
+/var/log/dmesg.0:[    1.043628] kernel: ACPI: button: Power Button [PWRB]
+/var/log/dmesg.0:[    1.043693] kernel: ACPI: button: Lid Switch [LID]
+/var/log/dmesg.0:[    1.043761] kernel: ACPI: button: Sleep Button [SLPB]
+/var/log/dmesg.0:[    1.043820] kernel: ACPI: button: Power Button [PWRB]
+/var/log/dmesg.0:[    1.046809] kernel: ACPI: thermal: Thermal Zone [THRM] (24 C)
+/var/log/dmesg.0:[    1.058431] kernel: ACPI: battery: Slot [BAT0] (battery present)
+/var/log/dmesg.0:[   16.156348] kernel: ACPI: bus type drm_connector registered
+/var/log/dmesg.0:[   24.591774] kernel: ACPI: battery: new extension: ASUS Battery Extension
+/var/log/dmesg.0:[   28.177961] kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/dmesg.0:[   48.599821] kernel: ACPI: EC: interrupt blocked
+/var/log/dmesg.0:[   48.625030] kernel: ACPI: PM: Preparing to enter system sleep state S3
+/var/log/dmesg.0:[   48.628690] kernel: ACPI: EC: event blocked
+/var/log/dmesg.0:[   48.628695] kernel: ACPI: EC: EC stopped
+/var/log/dmesg.0:[   48.628697] kernel: ACPI: PM: Saving platform NVS memory
+/var/log/dmesg.0:[   48.642961] kernel: ACPI: PM: Low-level resume complete
+/var/log/dmesg.0:[   48.643035] kernel: ACPI: EC: EC started
+/var/log/dmesg.0:[   48.643036] kernel: ACPI: PM: Restoring platform NVS memory
+/var/log/dmesg.0:[   48.650926] kernel: ACPI: PM: Waking up from system sleep state S3
+/var/log/dmesg.0:[   48.663264] kernel: ACPI: EC: interrupt unblocked
+/var/log/dmesg.0:[   48.669956] kernel: ACPI: EC: event unblocked
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74f91c98 MEMATTR=0x70cea018 MOKvar=0x79bd0000 RNG=0x79aa0018 TPMEventLog=0x6749e018 
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006572] ACPI: Early table checksum verification disabled
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006577] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006583] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006593] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006602] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006608] ACPI: FACS 0x0000000079B18080 000040
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006612] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006617] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006621] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006626] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006631] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006636] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006640] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006645] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006650] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006654] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006659] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006664] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006669] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006674] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006679] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006684] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006689] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006694] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006699] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006704] ACPI: TPM2 0x0000000079AB9B90 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006708] ACPI: BGRT 0x0000000079AB9BD0 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006713] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006718] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006722] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006727] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006728] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006730] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006731] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006733] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006734] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006736] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006737] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006739] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006740] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006741] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006743] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006744] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006746] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006747] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006748] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006750] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006751] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006753] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006754] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006756] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006757] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006759] ACPI: Reserving TPM2 table memory at [mem 0x79ab9b90-0x79ab9bc3]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006760] ACPI: Reserving BGRT table memory at [mem 0x79ab9bd0-0x79ab9c07]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006762] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006763] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.006764] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019473] ACPI: PM-Timer IO Port: 0x408
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019490] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019494] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019495] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019497] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019537] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019540] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019546] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.019548] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.078711] ACPI: Core revision 20221020
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.147795] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.147795] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.148746] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.155226] ACPI: Added _OSI(Module Device)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.155228] ACPI: Added _OSI(Processor Device)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.155230] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.155231] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.173243] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.174405] ACPI: EC: EC started
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.174407] ACPI: EC: interrupt blocked
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.175049] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.175051] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.184967] ACPI: Dynamic OEM Table Load:
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.184967] ACPI: SSDT 0xFFFF8B9440E73A00 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.185091] ACPI: Dynamic OEM Table Load:
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.185099] ACPI: SSDT 0xFFFF8B9440E73600 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.185103] ACPI: Dynamic OEM Table Load:
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.185103] ACPI: SSDT 0xFFFF8B9440CDD400 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.186120] ACPI: Interpreter enabled
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.186159] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.186161] ACPI: Using IOAPIC for interrupt routing
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.188073] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.188097] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.188582] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.194345] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.194673] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.194993] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.195314] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.195632] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.196241] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.196783] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.206974] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.217963] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218072] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218179] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218285] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218391] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218497] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218610] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.218719] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226557] ACPI: EC: interrupt unblocked
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226560] ACPI: EC: event unblocked
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226578] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226580] ACPI: EC: GPE=0x25
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226582] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226585] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.226668] ACPI: bus type USB registered
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.229780] PCI: Using ACPI for IRQ routing
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.278274] pnp: PnP ACPI init
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.279912] pnp: PnP ACPI: found 4 devices
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.301460] ACPI: AC: AC Adapter [AC0] (on-line)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.301556] ACPI: button: Power Button [PWRB]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.301614] ACPI: button: Lid Switch [LID]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.301675] ACPI: button: Sleep Button [SLPB]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.301729] ACPI: button: Power Button [PWRB]
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.304880] ACPI: thermal: Thermal Zone [THRM] (42 C)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    0.316659] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    2.047340] ACPI: bus type drm_connector registered
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu systemd[1]: Started ACPI Events Check.
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [    5.102483] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu systemd[1]: Listening on ACPID Listen Socket.
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu systemd[1]: Started ACPI event daemon.
+/var/log/installer/syslog:Oct  6 07:33:33 ubuntu kernel: [   17.637197] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log:Nov 29 15:59:10 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  103.286983] ACPI Error: No installed handler for fixed event - PowerButton (2), disabling (20221020/evevent-255)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005721] ACPI: Early table checksum verification disabled
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005727] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005733] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005742] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005751] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005757] ACPI: FACS 0x0000000079B18080 000040
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005762] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005767] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005772] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005777] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005781] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005786] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005791] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005796] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005801] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005805] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005810] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005815] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005820] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005825] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005830] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005835] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005840] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005845] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005850] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005855] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005860] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005864] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005869] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005874] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005878] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005880] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005882] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005883] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005885] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005886] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005887] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005889] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005890] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005892] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005893] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005894] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005896] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005897] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005899] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005900] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005901] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005903] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005904] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005906] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005907] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005909] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005910] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005912] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005913] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005915] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005916] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018958] ACPI: PM-Timer IO Port: 0x408
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018980] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018986] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018987] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018989] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019028] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019031] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019037] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019039] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079120] ACPI: Core revision 20221020
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.191587] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.191598] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.199570] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207691] ACPI: Added _OSI(Module Device)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207693] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207695] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207696] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.276535] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.283639] ACPI: EC: EC started
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.283640] ACPI: EC: interrupt blocked
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.284277] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.284279] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.331968] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.331968] ACPI: SSDT 0xFFFF927D011AD800 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.335995] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.336002] ACPI: SSDT 0xFFFF927D011ADA00 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.340015] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.340021] ACPI: SSDT 0xFFFF927D00CDF600 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348048] ACPI: Interpreter enabled
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348087] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348089] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355966] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355996] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.356485] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.380115] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.380436] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.383738] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.384055] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.384372] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.387968] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.388510] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.412524] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.456348] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.456459] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459550] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459657] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459762] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459878] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459984] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.460090] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491845] ACPI: EC: interrupt unblocked
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491847] ACPI: EC: event unblocked
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491865] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491867] ACPI: EC: GPE=0x25
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491869] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491872] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.495801] ACPI: bus type USB registered
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.503912] PCI: Using ACPI for IRQ routing
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.655024] pnp: PnP ACPI init
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.656667] pnp: PnP ACPI: found 4 devices
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678457] ACPI: AC: AC Adapter [AC0] (on-line)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678547] ACPI: button: Power Button [PWRB]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678605] ACPI: button: Lid Switch [LID]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678672] ACPI: button: Sleep Button [SLPB]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678729] ACPI: button: Power Button [PWRB]
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.681746] ACPI: thermal: Thermal Zone [THRM] (29 C)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.692443] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   13.168352] ACPI: bus type drm_connector registered
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   19.835264] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   28.080916] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae818 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006580] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006586] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006592] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006602] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006611] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006617] ACPI: FACS 0x0000000079B18080 000040
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006622] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006627] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006631] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006636] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006641] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006645] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006650] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006655] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006660] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006664] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006669] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006674] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006679] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006684] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006689] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006694] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006699] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006704] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006709] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006714] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006719] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006723] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006728] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006733] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006737] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006739] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006740] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006742] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006743] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006745] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006746] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006747] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006749] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006750] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006752] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006753] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006754] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006756] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006757] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006759] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006760] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006761] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006763] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006764] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006766] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006767] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006769] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006770] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006772] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006773] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006774] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019857] ACPI: PM-Timer IO Port: 0x408
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019873] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019876] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019877] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019879] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019919] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019924] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019931] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019933] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079989] ACPI: Core revision 20221020
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.528452] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.528464] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.584425] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.620558] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.620560] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.620561] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.620563] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.148465] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.180481] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.180483] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.200404] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.200406] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.512419] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.512431] ACPI: SSDT 0xFFFF9114011E6600 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.548495] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.548503] ACPI: SSDT 0xFFFF9114011E6800 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.580404] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.580411] ACPI: SSDT 0xFFFF911400CE8700 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.636505] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.640401] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.640404] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.692452] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.692475] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.704537] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.868428] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.876481] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.884531] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.896436] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.904484] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.924413] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.940401] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.108519] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.424408] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.424519] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.428485] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.432458] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.436421] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.440399] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.440505] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.444466] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606536] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606538] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606557] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606559] ACPI: EC: GPE=0x25
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606561] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.606563] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.676440] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.700437] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.675829] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.677478] pnp: PnP ACPI: found 4 devices
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.699409] ACPI: AC: AC Adapter [AC0] (off-line)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.699507] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.699572] ACPI: button: Lid Switch [LID]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.699636] ACPI: button: Sleep Button [SLPB]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.699692] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.702852] ACPI: thermal: Thermal Zone [THRM] (23 C)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.714613] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   15.926993] ACPI: bus type drm_connector registered
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   22.262971] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log.1:Nov 16 08:54:48 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   27.243084] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.435935] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.459719] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.461763] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.461765] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.461765] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.474112] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.474181] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.474183] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.483550] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.494711] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6940.501416] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 16 13:46:33 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [ 6941.492918] ACPI Error: No installed handler for fixed event - PowerButton (2), disabling (20221020/evevent-255)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006407] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006413] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006418] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006428] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006437] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006443] ACPI: FACS 0x0000000079B18080 000040
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006448] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006453] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006457] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006462] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006467] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006471] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006476] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006481] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006485] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006490] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006495] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006500] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006505] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006509] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006514] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006519] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006524] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006529] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006534] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006539] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006544] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006548] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006553] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006558] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006562] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006564] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006565] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006567] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006568] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006570] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006571] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006572] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006574] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006575] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006576] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006578] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006579] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006581] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006582] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006583] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006585] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006586] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006588] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006589] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006591] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006592] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006593] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006595] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006596] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006598] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006599] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019852] ACPI: PM-Timer IO Port: 0x408
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019868] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019872] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019874] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019875] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019916] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019919] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019925] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019927] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079978] ACPI: Core revision 20221020
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.516419] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.516433] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.564483] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.604392] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.604392] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.604392] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.604392] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.120535] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.152512] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.152514] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.172416] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.172418] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.472447] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.472459] ACPI: SSDT 0xFFFF8A29011E7E00 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.508483] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.508491] ACPI: SSDT 0xFFFF8A29011E6600 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.536511] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.536518] ACPI: SSDT 0xFFFF8A2900CE4E00 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.596411] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.596450] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.596452] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.648450] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.648474] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.660520] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.816528] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.828425] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.836466] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.844505] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.856394] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.872438] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    1.888410] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.052497] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.352473] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.356437] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.360406] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.360514] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.364474] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.368433] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.372391] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.372498] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.588537] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.592393] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.592415] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.592416] ACPI: EC: GPE=0x25
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.592419] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.592421] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.604438] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    2.628430] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.560883] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.562533] pnp: PnP ACPI: found 4 devices
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.587252] ACPI: AC: AC Adapter [AC0] (off-line)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.587351] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.587411] ACPI: button: Lid Switch [LID]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.587475] ACPI: button: Sleep Button [SLPB]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.587534] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.590686] ACPI: thermal: Thermal Zone [THRM] (30 C)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    3.602716] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   12.782334] ACPI: bus type drm_connector registered
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   16.679060] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log.1:Nov 16 14:21:49 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   25.026290] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005869] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005874] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005880] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005889] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005899] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005905] ACPI: FACS 0x0000000079B18080 000040
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005910] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005915] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005919] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005924] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005929] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005933] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005938] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005943] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005947] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005952] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005957] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005962] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005967] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005972] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005977] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005982] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005987] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005992] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005997] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006002] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006006] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006011] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006015] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006020] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006024] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006026] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006028] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006029] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006031] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006032] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006034] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006035] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006036] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006038] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006039] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006041] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006042] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006043] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006045] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006046] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006048] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006049] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006051] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006052] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006054] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006055] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006056] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006058] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006059] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006061] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.006062] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019143] ACPI: PM-Timer IO Port: 0x408
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019159] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019162] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019164] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019165] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019205] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019208] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019214] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019216] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079302] ACPI: Core revision 20221020
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.203933] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.203933] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.212031] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.219864] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.219867] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.219868] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.219869] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.308418] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.315924] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.315925] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.319738] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.319740] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.376101] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.376113] ACPI: SSDT 0xFFFF8BEB010F7A00 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.383813] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.383821] ACPI: SSDT 0xFFFF8BEB010F7800 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.388026] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.388032] ACPI: SSDT 0xFFFF8BEB00E34C00 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.396456] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.396494] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.396497] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.407938] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.407966] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.408470] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.436455] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.439958] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.440276] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.443771] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.444088] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.447875] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.448419] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.479957] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.532284] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.532391] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.532497] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.535783] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.535892] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.535997] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.536102] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.536208] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575863] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575865] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575884] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575886] ACPI: EC: GPE=0x25
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575888] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.575891] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.579758] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.584091] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.748310] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.749901] pnp: PnP ACPI: found 4 devices
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.775257] ACPI: AC: AC Adapter [AC0] (off-line)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.775352] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.775416] ACPI: button: Lid Switch [LID]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.775481] ACPI: button: Sleep Button [SLPB]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.775539] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.778759] ACPI: thermal: Thermal Zone [THRM] (22 C)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.789849] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   10.188826] ACPI: bus type drm_connector registered
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   17.780371] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log.1:Nov 17 10:59:39 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   24.665989] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x75008298 MEMATTR=0x72f3e018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005790] ACPI: Early table checksum verification disabled
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005796] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005802] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005812] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005821] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005827] ACPI: FACS 0x0000000079B18080 000040
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005832] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005837] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005841] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005846] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005851] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005855] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005860] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005865] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005869] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005874] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005878] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005883] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005888] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005893] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005898] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005903] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005908] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005913] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005918] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005923] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005928] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005932] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005937] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005941] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005946] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005948] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005949] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005950] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005952] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005953] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005955] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005956] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005957] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005959] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005960] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005962] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005963] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005964] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005966] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005967] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005969] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005970] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005972] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005973] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005974] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005976] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005977] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005979] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005980] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005982] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005983] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019036] ACPI: PM-Timer IO Port: 0x408
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019052] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019055] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019057] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019058] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019098] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019101] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019106] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019109] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079211] ACPI: Core revision 20221020
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.195962] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.195962] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.203928] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.211792] ACPI: Added _OSI(Module Device)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.211794] ACPI: Added _OSI(Processor Device)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.211796] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.211797] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.291626] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.295853] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.295854] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.296491] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.296493] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348367] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348367] ACPI: SSDT 0xFFFF9FF640E72800 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355870] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355877] ACPI: SSDT 0xFFFF9FF640E73000 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.359989] ACPI: Dynamic OEM Table Load:
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.359996] ACPI: SSDT 0xFFFF9FF640CE3900 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.368219] ACPI: Interpreter enabled
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.368258] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.368260] ACPI: Using IOAPIC for interrupt routing
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.376329] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.376355] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.379933] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.404123] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.404447] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.407849] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.408168] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.408490] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.412180] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.415805] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.440388] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.488337] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.488446] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491631] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491737] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491843] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491948] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.492054] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.492159] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527760] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527763] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527781] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527783] ACPI: EC: GPE=0x25
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527785] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.527788] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.531872] ACPI: bus type USB registered
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.535649] PCI: Using ACPI for IRQ routing
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.684182] pnp: PnP ACPI init
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.685755] pnp: PnP ACPI: found 4 devices
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.710887] ACPI: AC: AC Adapter [AC0] (off-line)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.710977] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.711036] ACPI: button: Lid Switch [LID]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.711099] ACPI: button: Sleep Button [SLPB]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.711157] ACPI: button: Power Button [PWRB]
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.714367] ACPI: thermal: Thermal Zone [THRM] (24 C)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.726700] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   11.978480] ACPI: bus type drm_connector registered
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   19.118644] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/kern.log.1:Nov 27 00:04:47 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   25.076411] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.844828] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.868816] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.872476] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.872481] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.872483] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.888701] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.888775] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.888777] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.900484] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.913895] ACPI: button: The lid device is not compliant to SW_LID.
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.917658] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:43:27 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   46.925245] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.454128] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.476613] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.480259] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.480263] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.480265] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.496127] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.496199] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.496202] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.508074] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.523877] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:43:54 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   71.531428] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.359751] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.384233] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.387848] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.387853] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.387855] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.404756] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.404833] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.404836] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.416816] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.433869] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:44:28 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  101.441495] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  107.718407] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  107.747526] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.086566] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.110553] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.114210] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.114214] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.114216] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.130005] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.130083] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.130085] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.142170] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.159634] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:44:51 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  120.167308] ACPI: EC: event unblocked
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.198370] ACPI: EC: interrupt blocked
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.222966] ACPI: PM: Preparing to enter system sleep state S3
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.226675] ACPI: EC: event blocked
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.226679] ACPI: EC: EC stopped
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.226681] ACPI: PM: Saving platform NVS memory
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.243595] ACPI: PM: Low-level resume complete
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.243667] ACPI: EC: EC started
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.243670] ACPI: PM: Restoring platform NVS memory
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.255942] ACPI: PM: Waking up from system sleep state S3
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.272508] ACPI: EC: interrupt unblocked
+/var/log/kern.log.1:Nov 27 04:45:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  137.280138] ACPI: EC: event unblocked
+/var/log/syslog:Nov 29 15:59:10 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [  103.286983] ACPI Error: No installed handler for fixed event - PowerButton (2), disabling (20221020/evevent-255)
+/var/log/syslog:Nov 29 15:59:11 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA systemd[1]: Stopping ACPI event daemon...
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079a95000-0x0000000079ab9fff] ACPI data
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x0000000079aba000-0x0000000079b19fff] ACPI NVS
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] BIOS-e820: [mem 0x000000007a968000-0x000000007a968fff] ACPI NVS
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.000000] efi: ACPI 2.0=0x79aa1000 ACPI=0x79aa1000 TPMFinalLog=0x79ae7000 SMBIOS=0x79d6c000 SMBIOS 3.0=0x79d6b000 ESRT=0x74fae898 MEMATTR=0x72f41018 MOKvar=0x79bfd000 RNG=0x79aa0018 TPMEventLog=0x6e4d6018 
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005721] ACPI: Early table checksum verification disabled
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005727] ACPI: RSDP 0x0000000079AA1000 000024 (v02 _ASUS_)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005733] ACPI: XSDT 0x0000000079AA10C0 0000EC (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005742] ACPI: FACP 0x0000000079AB15F0 000114 (v06 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005751] ACPI: DSDT 0x0000000079AA1250 01039D (v02 _ASUS_ Notebook 01072009 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005757] ACPI: FACS 0x0000000079B18080 000040
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005762] ACPI: FPDT 0x0000000079AB1710 000044 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005767] ACPI: FIDT 0x0000000079AB1760 00009C (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005772] ACPI: ECDT 0x0000000079AB1800 0000C1 (v01 _ASUS_ Notebook 01072009 AMI. 00000005)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005777] ACPI: MCFG 0x0000000079AB18D0 00003C (v01 _ASUS_ Notebook 01072009 MSFT 00000097)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005781] ACPI: DBG2 0x0000000079AB1910 000072 (v00 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005786] ACPI: DBGP 0x0000000079AB1990 000034 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005791] ACPI: HPET 0x0000000079AB19D0 000038 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005796] ACPI: LPIT 0x0000000079AB1A10 00005C (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005801] ACPI: APIC 0x0000000079AB1A70 000084 (v03 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005805] ACPI: NPKT 0x0000000079AB1B00 000065 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005810] ACPI: SSDT 0x0000000079AB1B70 00433B (v02 INTEL  DptfTab  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005815] ACPI: SSDT 0x0000000079AB5EB0 000158 (v01 Intel_ Platform 00001000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005820] ACPI: SSDT 0x0000000079AB6010 0000B1 (v01 Intel_ ADebTabl 00001000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005825] ACPI: SSDT 0x0000000079AB60D0 000493 (v02 PmRef  Cpu0Ist  00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005830] ACPI: SSDT 0x0000000079AB6570 000775 (v02 CpuRef CpuSsdt  00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005835] ACPI: SSDT 0x0000000079AB6CF0 00035F (v02 PmRef  Cpu0Tst  00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005840] ACPI: SSDT 0x0000000079AB7050 0001E6 (v02 PmRef  ApTst    00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005845] ACPI: SSDT 0x0000000079AB7240 0028FE (v02 SaSsdt SaSsdt   00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005850] ACPI: UEFI 0x0000000079AB9B40 000042 (v01 _ASUS_ Notebook 00000002      01000013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005855] ACPI: BGRT 0x0000000079AB9B90 000038 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005860] ACPI: TPM2 0x0000000079AB9BD0 000034 (v03 _ASUS_ Notebook 00000001 AMI  00000000)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005864] ACPI: DMAR 0x0000000079AB9C10 0000A8 (v01 INTEL  GLK-SOC  00000003 BRXT 0100000D)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005869] ACPI: WDAT 0x0000000079AB9CC0 000104 (v01                 00000000      00000000)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005874] ACPI: WSMT 0x0000000079AB9DD0 000028 (v01 _ASUS_ Notebook 01072009 AMI  00010013)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005878] ACPI: Reserving FACP table memory at [mem 0x79ab15f0-0x79ab1703]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005880] ACPI: Reserving DSDT table memory at [mem 0x79aa1250-0x79ab15ec]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005882] ACPI: Reserving FACS table memory at [mem 0x79b18080-0x79b180bf]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005883] ACPI: Reserving FPDT table memory at [mem 0x79ab1710-0x79ab1753]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005885] ACPI: Reserving FIDT table memory at [mem 0x79ab1760-0x79ab17fb]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005886] ACPI: Reserving ECDT table memory at [mem 0x79ab1800-0x79ab18c0]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005887] ACPI: Reserving MCFG table memory at [mem 0x79ab18d0-0x79ab190b]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005889] ACPI: Reserving DBG2 table memory at [mem 0x79ab1910-0x79ab1981]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005890] ACPI: Reserving DBGP table memory at [mem 0x79ab1990-0x79ab19c3]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005892] ACPI: Reserving HPET table memory at [mem 0x79ab19d0-0x79ab1a07]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005893] ACPI: Reserving LPIT table memory at [mem 0x79ab1a10-0x79ab1a6b]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005894] ACPI: Reserving APIC table memory at [mem 0x79ab1a70-0x79ab1af3]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005896] ACPI: Reserving NPKT table memory at [mem 0x79ab1b00-0x79ab1b64]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005897] ACPI: Reserving SSDT table memory at [mem 0x79ab1b70-0x79ab5eaa]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005899] ACPI: Reserving SSDT table memory at [mem 0x79ab5eb0-0x79ab6007]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005900] ACPI: Reserving SSDT table memory at [mem 0x79ab6010-0x79ab60c0]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005901] ACPI: Reserving SSDT table memory at [mem 0x79ab60d0-0x79ab6562]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005903] ACPI: Reserving SSDT table memory at [mem 0x79ab6570-0x79ab6ce4]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005904] ACPI: Reserving SSDT table memory at [mem 0x79ab6cf0-0x79ab704e]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005906] ACPI: Reserving SSDT table memory at [mem 0x79ab7050-0x79ab7235]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005907] ACPI: Reserving SSDT table memory at [mem 0x79ab7240-0x79ab9b3d]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005909] ACPI: Reserving UEFI table memory at [mem 0x79ab9b40-0x79ab9b81]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005910] ACPI: Reserving BGRT table memory at [mem 0x79ab9b90-0x79ab9bc7]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005912] ACPI: Reserving TPM2 table memory at [mem 0x79ab9bd0-0x79ab9c03]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005913] ACPI: Reserving DMAR table memory at [mem 0x79ab9c10-0x79ab9cb7]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005915] ACPI: Reserving WDAT table memory at [mem 0x79ab9cc0-0x79ab9dc3]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.005916] ACPI: Reserving WSMT table memory at [mem 0x79ab9dd0-0x79ab9df7]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018958] ACPI: PM-Timer IO Port: 0x408
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018980] ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018986] ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018987] ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.018989] ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019028] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019031] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019037] ACPI: Using ACPI (MADT) for SMP configuration information
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.019039] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.079120] ACPI: Core revision 20221020
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.191587] ACPI: PM: Registering ACPI NVS region [mem 0x79aba000-0x79b19fff] (393216 bytes)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.191598] ACPI: PM: Registering ACPI NVS region [mem 0x7a968000-0x7a968fff] (4096 bytes)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.199570] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207691] ACPI: Added _OSI(Module Device)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207693] ACPI: Added _OSI(Processor Device)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207695] ACPI: Added _OSI(3.0 _SCP Extensions)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.207696] ACPI: Added _OSI(Processor Aggregator Device)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.276535] ACPI: 9 ACPI AML tables successfully acquired and loaded
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.283639] ACPI: EC: EC started
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.283640] ACPI: EC: interrupt blocked
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.284277] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.284279] ACPI: EC: Boot ECDT EC used to handle transactions
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.331968] ACPI: Dynamic OEM Table Load:
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.331968] ACPI: SSDT 0xFFFF927D011AD800 000190 (v02 PmRef  Cpu0Cst  00003001 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.335995] ACPI: Dynamic OEM Table Load:
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.336002] ACPI: SSDT 0xFFFF927D011ADA00 0001E6 (v02 PmRef  ApIst    00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.340015] ACPI: Dynamic OEM Table Load:
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.340021] ACPI: SSDT 0xFFFF927D00CDF600 0000C9 (v02 PmRef  ApCst    00003000 INTL 20160930)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348048] ACPI: Interpreter enabled
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348087] ACPI: PM: (supports S0 S3 S4 S5)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.348089] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355966] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved as ACPI motherboard resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.355996] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.356485] ACPI: Enabled 7 GPEs in block 00 to 7F
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.380115] ACPI: \_SB_.PCI0.RP01.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.380436] ACPI: \_SB_.PCI0.RP02.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.383738] ACPI: \_SB_.PCI0.RP03.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.384055] ACPI: \_SB_.PCI0.RP04.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.384372] ACPI: \_SB_.PCI0.RP05.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.387968] ACPI: \_SB_.PCI0.RP06.PXSX.DRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.388510] ACPI: \_SB_.PCI0.CNVW.WRST: New power resource
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.412524] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA systemd[1]: Started ACPI Events Check.
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.456348] ACPI: PCI: Interrupt link LNKA configured for IRQ 3
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.456459] ACPI: PCI: Interrupt link LNKB configured for IRQ 4
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459550] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459657] ACPI: PCI: Interrupt link LNKD configured for IRQ 6
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459762] ACPI: PCI: Interrupt link LNKE configured for IRQ 7
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459878] ACPI: PCI: Interrupt link LNKF configured for IRQ 9
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.459984] ACPI: PCI: Interrupt link LNKG configured for IRQ 10
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.460090] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA systemd[1]: Listening on ACPID Listen Socket.
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491845] ACPI: EC: interrupt unblocked
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491847] ACPI: EC: event unblocked
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491865] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491867] ACPI: EC: GPE=0x25
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491869] ACPI: \_SB_.PCI0.SBRG.EC0_: Boot ECDT EC initialization complete
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.491872] ACPI: \_SB_.PCI0.SBRG.EC0_: EC: Used to handle transactions and events
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.495801] ACPI: bus type USB registered
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.503912] PCI: Using ACPI for IRQ routing
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.655024] pnp: PnP ACPI init
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.656667] pnp: PnP ACPI: found 4 devices
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA systemd[1]: Started ACPI event daemon.
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678457] ACPI: AC: AC Adapter [AC0] (on-line)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678547] ACPI: button: Power Button [PWRB]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678605] ACPI: button: Lid Switch [LID]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678672] ACPI: button: Sleep Button [SLPB]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.678729] ACPI: button: Power Button [PWRB]
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.681746] ACPI: thermal: Thermal Zone [THRM] (29 C)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [    0.692443] ACPI: battery: Slot [BAT0] (battery present)
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   13.168352] ACPI: bus type drm_connector registered
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   19.835264] ACPI: battery: new extension: ASUS Battery Extension
+/var/log/syslog:Nov 29 16:01:18 adrian-VivoBook-15-ASUS-Laptop-X507MA-X507MA kernel: [   28.080916] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
