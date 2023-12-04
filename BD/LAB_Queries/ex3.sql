@@ -1,3 +1,4 @@
+--denumirile disciplinelor si media notelor mai mare de 7
 SELECT disciplina, average
 FROM (
     SELECT id_disciplina, AVG(CAST(nota AS FLOAT)) AS average
@@ -9,4 +10,5 @@ FROM (
     GROUP BY id_disciplina
 ) u
 JOIN discipline ON u.id_disciplina = discipline.id_disciplina
-WHERE average > 7.0;
+WHERE average > 7.0
+ORDER BY average DESC;

@@ -1,3 +1,4 @@
+--in ce grupe figureaza mai mult de 24 de studenti
 SELECT cod_grupa
 FROM (
     SELECT cod_grupa, COUNT(DISTINCT id_student) AS c
