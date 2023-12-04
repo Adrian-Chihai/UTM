@@ -32,39 +32,9 @@ def concat_all():
 
     pd.set_option('display.max_rows', None)
     pd.set_option('display.max_columns', None)
+    print(df_regrupat)
 
     # Salvează DataFrame-ul într-un fișier CSV
     df_regrupat.to_csv('rezultat_complet.csv', index=False)
 
-    return df_regrupat
-
-# Restul codului rămâne neschimbat
-
-def search_dates(df_regrupat):
-    min_pe_zi = df_regrupat.min(axis=1)
-    max_pe_zi = df_regrupat.max(axis=1)
-    media_pe_zi = df_regrupat.mean(axis=1)
-
-    # Calculul pentru toate datele stocate
-    min_total = df_regrupat.min().min()
-    max_total = df_regrupat.max().max()
-    media_total = df_regrupat.mean().mean()
-
-    # Afisează rezultatele
-    print("Minim pe zi:")
-    print(min_pe_zi)
-    print("\nMaxim pe zi:")
-    print(max_pe_zi)
-    print("\nMedie pe zi:")
-    print(media_pe_zi)
-
-    print("\nMinim total:")
-    print(min_total)
-    print("\nMaxim total:")
-    print(max_total)
-    print("\nMedie totală:")
-    print(media_total)
-
-
-df = concat_all()
-search_dates(df)
+concat_all()
