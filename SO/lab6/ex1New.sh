@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Crearea directorului "test" în directorul home
-mkdir ~/test 2>/dev/null
+mkdir "$HOME/test" 2>/dev/null
 
 # Verificarea rezultatului și scrierea în fișierul raport
 if [ $? -eq 0 ]; then
-    echo "catalog test was created successfully" > ~/raport
-    touch ~/test/Data_Ora_Lansarii_Scriptului
+    echo "catalog test was created successfully" > "$HOME/raport"
+    touch "$HOME/test/Data_Ora_Lansarii_Scriptului"
 else
-    echo "Error: catalog test creation failed" > ~/raport
+    echo "Error: catalog test creation failed" > "$HOME/raport"
 fi
 
 # Ping către www.traiasca_moldova.md și scrierea în fișierul raport

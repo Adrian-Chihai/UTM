@@ -1,19 +1,15 @@
 #!/bin/bash
-set script_path="/home/h1p/UTM/OS/Lab_6/Task1.sh"
-mkdir -p ~/test
-if test $status -eq 0
-    echo "catalog test was created successfully" >> ~/UTM/OS/Lab_6/raport
-    date '+%Y-%m-%d_%H-%M-%S' >> ~/test/Data_Ora_Lansarii_Scriptului
-end
 
-ping -c 1 www.traiasca_moldova.md 
+# Crearea directorului "test" în directorul home
+mkdir "$HOME/test2" 2>/dev/null
 
-if test $status -eq 0
-    echo "Host-ul www.traiasca_moldova.md este disponibil." >> ~/UTM/OS/Lab_6/raport
+# Scrierea în fișierul raport în funcție de rezultatul creării directorul
+if [ $? -eq 0 ]; then
+    echo "catalog test was created successfully" > "$HOME/raport"
+    touch "$HOME/test2/Data_Ora_Lansarii_Scriptului"
 else
-    echo "Host-ul www.traiasca_moldova.md nu este disponibil." >> ~/UTM/OS/Lab_6/raport
-end
-#Se ruleaza dupa 2 minute 
-#echo "~/UTM/OS/Lab_6/Task1.sh"|at now + 2 minutes
-#Se ruleaza in fiecare 5 min din ora 
-#(crontab -l ; echo */5 * */2 * * /bin/bash /home/h1p/UTM/OS/Lab_6/Task1.sh >/dev/null 2>&1) | crontab -
+    echo "Error: catalog test creation failed" > "$HOME/raport"
+fi
+# Ping către www.traiasca_moldova.md și scrierea în fișierul raport în caz de eroare
+ping -c 1 www.traiasca_moldova.md >/dev/null 2>&1 || echo "Error: www.traiasca_moldova.md is not reachable" >> "$HOME/raport"
+
