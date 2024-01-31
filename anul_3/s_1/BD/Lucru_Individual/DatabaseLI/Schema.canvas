@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d6343d3622dc38dc","type":"text","text":"Categorie\n=\nCategorieSocioProfesionalaID PK, SERIAL,\nDenumireCategorie varchar(100)\n\n","x":-544,"y":-653,"width":384,"height":233,"color":"2"},
+		{"id":"f2d3705bded2ff9b","type":"text","text":"Persoane\n=\nPersId PK, SERIAL(auto increment),\nVarsta INT,\nSEX varchar(50),\nCategorieSocioProfesionalaID FK, SERIAL","x":-1080,"y":-656,"width":384,"height":240,"color":"2"},
+		{"id":"94e9b1a48227c4bf","type":"text","text":"Intrebari\n=\nIntrebareId PK, SERIAL,\nDescriereIntrebare varchar(200)","x":-40,"y":-656,"width":384,"height":233,"color":"2"},
+		{"id":"3b69b65bf8518f11","type":"text","text":"Raspunsuri\n=\nRaspunsID PK, SERIAL,\nIntrebareID, FK, SERIAL,\nPersID FK, SERIAL,\nRaspunsuri varchar()\n","x":480,"y":-663,"width":384,"height":240,"color":"2"}
+	],
+	"edges":[]
+}

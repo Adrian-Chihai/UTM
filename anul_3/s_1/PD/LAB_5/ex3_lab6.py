@@ -18,7 +18,7 @@ for i in range(len(date_ranges) - 1):
     start_date = date_ranges[i]
     end_date = date_ranges[i + 1]
 
-    week_data = df[(df.index >= start_date) & (df.index < end_date)]
+    week_data = df[(df.index > start_date) & (df.index < end_date)]
 
     if not week_data.empty:
         file_path = os.path.join(output_directory, f"{start_date.strftime('%Y%m%d')}_{end_date.strftime('%Y%m%d')}.csv")
