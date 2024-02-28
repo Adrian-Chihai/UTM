@@ -1,24 +1,24 @@
 package org.example.lab1;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Server implements Runnable {
     private final int port = 9999;
+    private BufferedReader reader;
     private List<ConnectionHandler> connectionList;
     private ServerSocket server;
     private ExecutorService pool;
     private boolean done;
 
     public Server() {
+        reader = new BufferedReader(new InputStreamReader(System.in));
         connectionList = new ArrayList<>();
     }
 
@@ -27,6 +27,20 @@ public class Server implements Runnable {
         try {
             server = new ServerSocket(port);
             pool = Executors.newCachedThreadPool();
+
+            Thread consoleInputThread = new Thread(() -> {
+                try {
+                    while (!done) {
+                        String message = reader.readLine();
+                        if (message != null) {
+                            broadcastServerMessages(message);
+                        }
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            consoleInputThread.start();
 
             while (!done) {
                 Socket client = server.accept();
@@ -39,11 +53,17 @@ public class Server implements Runnable {
         }
     }
 
-    public void broadcast(ConnectionHandler sender, String message) {
+    public void broadcastClientMessages(ConnectionHandler sender, String message) {
         for (ConnectionHandler ch : connectionList) {
-            if (ch != null && !ch.equals(sender)) {
+            if (ch != null && !ch.equals(sender) && !(ch.nickname == null)) {
                 ch.sendMessage(message);
             }
+        }
+    }
+
+    public void broadcastServerMessages(String message) {
+        for (ConnectionHandler ch : connectionList) {
+            ch.sendMessage("Server : " + message);
         }
     }
 
@@ -140,7 +160,7 @@ public class Server implements Runnable {
 
         private void displayWhenConnectionEstablished() {
             printServerLogs(nickname + " with address " + client.getInetAddress() + ":" + client.getPort() + " connected to the server.");
-            broadcast(this, nickname + " joined the chat.");
+            broadcastClientMessages(this, nickname + " joined the chat.");
         }
 
         private void displayWhenConnectionFailed() {
@@ -150,7 +170,7 @@ public class Server implements Runnable {
 
         private void displayWhenSendMessage(String message) {
             printServerLogs(nickname + " with address " + client.getInetAddress() + ":" + client.getPort() + " sent a message -> " + message);
-            broadcast(this, nickname + ": " + message);
+            broadcastClientMessages(this, nickname + ": " + message);
         }
 
         private String enterMessage(BufferedReader input) throws IOException {
@@ -158,7 +178,7 @@ public class Server implements Runnable {
         }
 
         private void displayWhenNicknameChanged(String nicknameChanged) {
-            broadcast(this, nickname + " changed nickname " + nicknameChanged);
+            broadcastClientMessages(this, nickname + " changed nickname " + nicknameChanged);
             printServerLogs(nickname + " changed nickname " + nicknameChanged);
             nickname = nicknameChanged;
             output.println("Successfully changed nickname: " + nickname);
@@ -170,7 +190,7 @@ public class Server implements Runnable {
 
         private void displayWhenUserLeaves() {
             printServerLogs(nickname + "(" + client.getInetAddress() + ":" + client.getPort() + ")" + " left.");
-            broadcast(this, nickname + " left the chat.");
+            broadcastClientMessages(this, nickname + " left the chat.");
             shutdown();
         }
 

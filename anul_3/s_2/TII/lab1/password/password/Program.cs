@@ -4,11 +4,11 @@ using System.Text;
 
 namespace password
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        internal static void Main(string[] args)
         {
-            string hash = "9F86D081884C7D659A2FEAA0C55AD015A3BF4F1B2B0B822CD15D6C15B0F00A08";
+            const string hash = "9F86D081884C7D659A2FEAA0C55AD015A3BF4F1B2B0B822CD15D6C15B0F00A08";
             
             Console.WriteLine("Enter your password");
 
@@ -51,10 +51,18 @@ namespace password
             {
                 key = Console.ReadKey(intercept: true);
 
-                if (key.Key != ConsoleKey.Enter)
+                if (key.Key != ConsoleKey.Enter && key.Key != ConsoleKey.Backspace)
                 {
                     input += key.KeyChar;
                     Console.Write("*");
+                }
+                else if (key.Key == ConsoleKey.Backspace && input.Length >= 1)
+                {
+                    input = input.Substring(0, input.Length - 1);
+
+                    Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop);
+                    Console.Write(" ");
+                    Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop);
                 }
                 
             } while (key.Key != ConsoleKey.Enter);
