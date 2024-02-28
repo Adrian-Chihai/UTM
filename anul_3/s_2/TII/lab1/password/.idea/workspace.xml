@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f4e8ee-29b8-4ddc-8d92-310e08e40771" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab1/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PR/labs/src/main/java/org/example/lab2/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab3/lab_3_1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ccoALQsOtYgpuIhO6pT5Ysri1f" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -29,6 +32,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708420084369</updated>
       <workItem from="1708420085707" duration="21000" />
+      <workItem from="1708614385141" duration="239000" />
     </task>
     <servers />
   </component>
