@@ -1,0 +1,241 @@
+{
+  "id": "28a3c2a1-5ae4-4484-9292-5363d3fce1fb",
+  "version": "2.0",
+  "name": "lab3",
+  "url": "https://www.mortgagecalculator.org/",
+  "tests": [{
+    "id": "49b6f168-a233-4bee-bcf7-cf670e2549fb",
+    "name": "test1",
+    "commands": [{
+      "id": "a47ad10f-7238-4a84-8698-1dbf543eb412",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.mortgagecalculator.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4708e6ff-7cf3-4b97-8f13-fafa5feca7ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1586x866",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2caaa8c4-12cc-4454-816f-26f911673293",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "6149709e-7494-48dc-8bc9-f11460d60690",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2125c993-bf12-4a83-94f5-347a1bb524ad",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3aa0ce-a1b7-4f97-8b28-a53136270512",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=homeval",
+      "targets": [
+        ["id=homeval", "id"],
+        ["name=param[homevalue]", "name"],
+        ["css=#homeval", "css:finder"],
+        ["xpath=//input[@id='homeval']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "31.20001220703125,8.5"
+    }, {
+      "id": "d4e4ee00-dfcc-4eb7-a945-509605cb484c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=homeval",
+      "targets": [
+        ["id=homeval", "id"],
+        ["name=param[homevalue]", "name"],
+        ["css=#homeval", "css:finder"],
+        ["xpath=//input[@id='homeval']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "31.20001220703125,8.5"
+    }, {
+      "id": "b06b8063-5003-4538-86ea-7ea3befd5bf7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=homeval",
+      "targets": [
+        ["id=homeval", "id"],
+        ["name=param[homevalue]", "name"],
+        ["css=#homeval", "css:finder"],
+        ["xpath=//input[@id='homeval']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "31.20001220703125,8.5"
+    }, {
+      "id": "8143cd04-eba7-42f0-b052-2e469ec4075e",
+      "comment": "",
+      "command": "click",
+      "target": "id=homeval",
+      "targets": [
+        ["id=homeval", "id"],
+        ["name=param[homevalue]", "name"],
+        ["css=#homeval", "css:finder"],
+        ["xpath=//input[@id='homeval']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ebdb6d0-8059-4bb2-bae9-0327300c9bbe",
+      "comment": "",
+      "command": "type",
+      "target": "id=homeval",
+      "targets": [
+        ["id=homeval", "id"],
+        ["name=param[homevalue]", "name"],
+        ["css=#homeval", "css:finder"],
+        ["xpath=//input[@id='homeval']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "250000"
+    }, {
+      "id": "2e84f672-29da-493a-939c-08ec2cb4f8f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=intrstsrate",
+      "targets": [
+        ["id=intrstsrate", "id"],
+        ["name=param[interest_rate]", "name"],
+        ["css=#intrstsrate", "css:finder"],
+        ["xpath=//input[@id='intrstsrate']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62805cbb-6b94-47f3-a033-74ac7a48b8b2",
+      "comment": "",
+      "command": "click",
+      "target": "name=cal",
+      "targets": [
+        ["name=cal", "name"],
+        ["css=.rw-box > .styled-button", "css:finder"],
+        ["xpath=//input[@name='cal']", "xpath:attributes"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div/div/div[17]/input", "xpath:idRelative"],
+        ["xpath=//div[17]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd5e2d0e-62c5-45d0-97dc-6fe5ea777a50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cal-right-box",
+      "targets": [
+        ["css=.cal-right-box", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cac98ad-d3a8-4955-b963-1852cb64a5e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rw-box:nth-child(1) > .left-cell > h3",
+      "targets": [
+        ["css=.rw-box:nth-child(1) > .left-cell > h3", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'$1,645.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7510467b-7749-4c40-9630-81a0a1b07db8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cal-right-box",
+      "targets": [
+        ["css=.cal-right-box", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbeea93-0a51-4c62-aadb-852076f2791d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rw-box:nth-child(1) > .left-cell > h3",
+      "targets": [
+        ["css=.rw-box:nth-child(1) > .left-cell > h3", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'$1,645.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e148588-e029-43bc-bba2-6e48ba438769",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rw-box:nth-child(1) > .left-cell > h3",
+      "targets": [
+        ["css=.rw-box:nth-child(1) > .left-cell > h3", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'$1,645.25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c21814-2eff-40a5-bd56-7de9151a64e7",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.rw-box:nth-child(1) > .left-cell > h3",
+      "targets": [
+        ["css=.rw-box:nth-child(1) > .left-cell > h3", "css:finder"],
+        ["xpath=//div[@id='calc']/form/section/section[2]/div/div/div/div/div/div[4]/div[2]/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'$1,645.25')]", "xpath:innerText"]
+      ],
+      "value": "monthlyPayment"
+    }, {
+      "id": "630f3050-6d94-4ead-8532-19bdbdb852f2",
+      "comment": "",
+      "command": "echo",
+      "target": "999,24",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "869a7dd1-ee41-4743-a116-ee6c331ad920",
+      "comment": "",
+      "command": "echo",
+      "target": "${monthlyPayment}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "148d0181-7a49-4f3f-81ce-d60b7ec3b232",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49b6f168-a233-4bee-bcf7-cf670e2549fb"]
+  }],
+  "urls": ["https://www.curs.md/ro", "https://www.mortgagecalculator.org/"],
+  "plugins": []
+}

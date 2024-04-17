@@ -1,78 +1,90 @@
 package org.example.lab2;
 
-import java.io.IOException;
-import java.net.*;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.SocketException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Client {
-    private static DatagramSocket datagramSocket;
-    private static InetAddress serverAddress;
+    private static final int PORT = 9876;
+    private static List<String> commands = new ArrayList<>(List.of("/quit", "/tell"));
 
-    static {
-        try {
-            datagramSocket = new DatagramSocket();
-            serverAddress = InetAddress.getByName("localhost");
-        } catch (SocketException | UnknownHostException e) {
-            throw new RuntimeException(e);
-        }
-    }
+    public static void main(String[] args) throws SocketException {
+        DatagramSocket socket = new DatagramSocket();
+        Scanner input = new Scanner(System.in);
 
-    private String nickname;
+        System.out.print("Enter your username: ");
+        String username = input.nextLine();
+        send("/join " + username, socket);
 
-    public static void main(String[] args) {
-        System.out.print("Enter your nickname: ");
-        Scanner scanner = new Scanner(System.in);
-        String nickname = scanner.nextLine();
-
-        Client client = new Client(nickname);
-        client.init();
-
-        Thread clientThread = new Thread(new ClientThread(datagramSocket));
-        clientThread.start();
-
-        client.startChat(scanner);
-    }
-
-    public Client(String nickname) {
-        this.nickname = nickname;
-    }
-
-    private void init() {
-        String initMessage = "init " + nickname;
-        byte[] initData = initMessage.getBytes();
-
-        try {
-            DatagramPacket initPacket = new DatagramPacket(initData, initData.length, serverAddress, 8080);
-            datagramSocket.send(initPacket);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    private void startChat(Scanner scanner) {
-        System.out.println("Chat started. Type 'exit' to quit.");
+        Thread receiverThread = new Thread(() -> {
+            while (true) {
+                receive(socket);
+            }
+        });
+        receiverThread.start();
 
         while (true) {
-            System.out.print("[" + nickname + "]: ");
-            String message = scanner.nextLine();
 
-            if ("exit".equalsIgnoreCase(message)) {
-                System.out.println("Exiting chat. Goodbye!");
+            String message = input.nextLine();
+//            if (isCommand(message)) {
+//                message = handleCommand(message, input);
+//            }
+
+            if (commands.get(0).equals(message)) {
+                send("/quit", socket);
+                socket.close();
                 System.exit(0);
+            } else if (message.startsWith(commands.get(1))) {
+                send(message, socket);
+            } else {
+                send(message, socket);
             }
-
-            sendMessage(message);
         }
     }
 
-    private void sendMessage(String message) {
-        byte[] messageData = message.getBytes();
-
+    private static void send(String message, DatagramSocket socket) {
         try {
-            DatagramPacket messagePacket = new DatagramPacket(messageData, messageData.length, serverAddress, 8080);
-            datagramSocket.send(messagePacket);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+            DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), java.net.InetAddress.getByName("localhost"), PORT);
+            socket.send(packet);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+    }
+
+    private static void receive(DatagramSocket socket) {
+        try {
+            byte[] receiveData = new byte[1024];
+            DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+            socket.receive(receivePacket);
+
+            String receivedMessage = new String(receivePacket.getData(), 0, receivePacket.getLength());
+            System.out.println(receivedMessage);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static String handleCommand(String message, Scanner input) {
+        do {
+            System.out.println(message + " is an invalid command");
+            System.out.println("Please reenter");
+            message = input.nextLine();
+        } while (isValidCommand(message));
+        return message;
+    }
+
+    private static boolean isValidCommand(String message) {
+        String[] commandParts = message.split(" ");
+        StringBuilder command = new StringBuilder();
+        command.append(commandParts[0]);
+        return commands.stream().anyMatch(e -> e.equals(command));
+    }
+
+    private static boolean isCommand(String message) {
+        return message.startsWith("/");
     }
 }
