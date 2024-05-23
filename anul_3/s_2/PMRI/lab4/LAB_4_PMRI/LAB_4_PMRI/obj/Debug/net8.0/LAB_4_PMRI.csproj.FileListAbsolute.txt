@@ -1,0 +1,15 @@
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\bin\Debug\net8.0\LAB_4_PMRI.exe
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\bin\Debug\net8.0\LAB_4_PMRI.deps.json
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\bin\Debug\net8.0\LAB_4_PMRI.runtimeconfig.json
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\bin\Debug\net8.0\LAB_4_PMRI.dll
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\bin\Debug\net8.0\LAB_4_PMRI.pdb
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.GeneratedMSBuildEditorConfig.editorconfig
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.AssemblyInfoInputs.cache
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.AssemblyInfo.cs
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.csproj.CoreCompileInputs.cache
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.sourcelink.json
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.dll
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\refint\LAB_4_PMRI.dll
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.pdb
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\LAB_4_PMRI.genruntimeconfig.cache
+E:\UTM\anul_3\s_2\PMRI\lab4\LAB_4_PMRI\LAB_4_PMRI\obj\Debug\net8.0\ref\LAB_4_PMRI.dll

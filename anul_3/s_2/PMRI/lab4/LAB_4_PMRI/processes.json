@@ -1,0 +1,527 @@
+[
+  {
+    "ProcessId": 4440,
+    "ExecutablePath": "C:\\Windows\\System32\\sihost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 5408,
+    "ExecutablePath": "C:\\Windows\\System32\\svchost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1640,
+    "ExecutablePath": "C:\\Windows\\System32\\svchost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 3856,
+    "ExecutablePath": "C:\\Windows\\System32\\taskhostw.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 4936,
+    "ExecutablePath": "C:\\Windows\\explorer.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 7680,
+    "ExecutablePath": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_7d126bda2f653af7\\FnHotkeyUtility.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8060,
+    "ExecutablePath": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 7992,
+    "ExecutablePath": "C:\\Windows\\System32\\svchost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8256,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8332,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8460,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8696,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9656,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9708,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10184,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10164,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.24041.108.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10536,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10840,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11012,
+    "ExecutablePath": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11176,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11212,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10668,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10612,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9168,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10404,
+    "ExecutablePath": "C:\\Program Files\\AMD\\CNext\\CNext\\RadeonSoftware.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9192,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11412,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11652,
+    "ExecutablePath": "C:\\Users\\Adrian\\AppData\\Local\\Programs\\Opera GX\\assistant\\browser_assistant.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11708,
+    "ExecutablePath": "C:\\Users\\Adrian\\AppData\\Local\\Programs\\Opera GX\\assistant\\browser_assistant.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11936,
+    "ExecutablePath": "C:\\Users\\Adrian\\AppData\\Local\\Microsoft\\BingSvc\\BingSvc.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12000,
+    "ExecutablePath": "C:\\Users\\Adrian\\AppData\\Local\\Microsoft\\BingWallpaperApp\\BingWallpaperApp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12064,
+    "ExecutablePath": "C:\\Program Files\\AMD\\CNext\\CNext\\cncmd.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12128,
+    "ExecutablePath": "C:\\Windows\\System32\\cmd.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12136,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10884,
+    "ExecutablePath": "C:\\Windows\\System32\\svchost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12440,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12560,
+    "ExecutablePath": "C:\\Program Files\\FxSound LLC\\FxSound\\FxSound.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12612,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12716,
+    "ExecutablePath": "C:\\Program Files (x86)\\Common Files\\Java\\Java Update\\jusched.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12812,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12824,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12860,
+    "ExecutablePath": "C:\\Program Files (x86)\\VMware\\VMware Workstation\\vmware-tray.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 13188,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 13228,
+    "ExecutablePath": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12396,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1932,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.237.701.0_x64__zpdnekdrzrea0\\Spotify.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12556,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 13584,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 4880,
+    "ExecutablePath": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 5012,
+    "ExecutablePath": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2401.0.0_x64__8wekyb3d8bbwe\\CalculatorApp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 6088,
+    "ExecutablePath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 5140,
+    "ExecutablePath": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 7220,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 7900,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11700,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11972,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9728,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 13428,
+    "ExecutablePath": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\124.0.2478.97\\msedgewebview2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1916,
+    "ExecutablePath": "C:\\Windows\\System32\\taskhostw.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1056,
+    "ExecutablePath": "C:\\Windows\\System32\\dllhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12160,
+    "ExecutablePath": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12372,
+    "ExecutablePath": "C:\\Windows\\System32\\cmd.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 3892,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 6372,
+    "ExecutablePath": "C:\\Users\\Adrian\\AppData\\Local\\Programs\\Lenovo\\Lenovo Service Bridge\\LSB.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 5908,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14808,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14768,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1048,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 15432,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16012,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16028,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16040,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16240,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 15884,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 15728,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 2796,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11716,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\PerfWatson2.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 15236,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\controller\\Microsoft.ServiceHub.Controller.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1896,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.AnyCPU\\ServiceHub.VSDetouredHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 3260,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.AnyCPU\\ServiceHub.SettingsHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1852,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.Dotnet.x64\\ServiceHub.IdentityHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1596,
+    "ExecutablePath": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14580,
+    "ExecutablePath": "C:\\Program Files (x86)\\Common Files\\Java\\Java Update\\jucheck.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16344,
+    "ExecutablePath": "E:\\UTM\\anul_3\\s_2\\PMRI\\lab3\\Autoruns\\Autoruns.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11820,
+    "ExecutablePath": "C:\\Windows\\System32\\svchost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14608,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.AnyCPU\\ServiceHub.ThreadedWaitDialog.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 1588,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.Dotnet.x64\\ServiceHub.RoslynCodeAnalysisService.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 8180,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.Dotnet.x64\\ServiceHub.IndexingService.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 2000,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14876,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 10500,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.netfx.x64\\ServiceHub.IntellicodeModelService.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 9220,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.Dotnet.x64\\ServiceHub.Host.dotnet.x64.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 6728,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.AnyCPU\\ServiceHub.Host.AnyCPU.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11296,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.AnyCPU\\ServiceHub.TestWindowStoreHost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 4368,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 6388,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 12044,
+    "ExecutablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14440,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\VBCSCompiler.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 7096,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 17200,
+    "ExecutablePath": "C:\\Windows\\System32\\smartscreen.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 17096,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Platform\\Debugger\\VsDebugConsole.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 14592,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16752,
+    "ExecutablePath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\symsrvhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 16656,
+    "ExecutablePath": "C:\\Windows\\System32\\conhost.exe",
+    "DigitalSignatureStatus": "Unknown"
+  },
+  {
+    "ProcessId": 11628,
+    "ExecutablePath": "E:\\UTM\\anul_3\\s_2\\PMRI\\lab4\\LAB_4_PMRI\\LAB_4_PMRI\\bin\\Debug\\net8.0\\LAB_4_PMRI.exe",
+    "DigitalSignatureStatus": "Unknown"
+  }
+]
