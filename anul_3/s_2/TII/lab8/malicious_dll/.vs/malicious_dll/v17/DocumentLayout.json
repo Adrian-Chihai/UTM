@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UTM\\anul_3\\s_2\\TII\\lab8\\malicious_dll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{399A46ED-6360-487E-804B-050C5DCD5BF7}|malicious_dll\\malicious_dll.vcxproj|E:\\UTM\\anul_3\\s_2\\TII\\lab8\\malicious_dll\\malicious_dll\\malicious_dll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{399A46ED-6360-487E-804B-050C5DCD5BF7}|malicious_dll\\malicious_dll.vcxproj|solutionrelative:malicious_dll\\malicious_dll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "malicious_dll.cpp",
+              "DocumentMoniker": "E:\\UTM\\anul_3\\s_2\\TII\\lab8\\malicious_dll\\malicious_dll\\malicious_dll.cpp",
+              "RelativeDocumentMoniker": "malicious_dll\\malicious_dll.cpp",
+              "ToolTip": "E:\\UTM\\anul_3\\s_2\\TII\\lab8\\malicious_dll\\malicious_dll\\malicious_dll.cpp",
+              "RelativeToolTip": "malicious_dll\\malicious_dll.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T12:24:56.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
