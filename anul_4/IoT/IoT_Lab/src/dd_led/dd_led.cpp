@@ -13,15 +13,15 @@ void dd_led_turn_off()
 {
     digitalWrite(DD_LED_PIN, LOW);
 }
+void dd_led_is_on()
+{
+    return (digitalRead(DD_LED_PIN)==HIGH);
+}
 void dd_led_toggle()
 {
-    int state = digitalRead(DD_LED_PIN);
-    if (state == HIGH)
-    {
-        digitalWrite(DD_LED_PIN, LOW);
-    }
-    else
-    {
-        digitalWrite(DD_LED_PIN, HIGH);
+    if(dd_led_is_on()) {
+        dd_led_turn_off();
+    } else {
+        dd_led_turn_on();
     }
 }
