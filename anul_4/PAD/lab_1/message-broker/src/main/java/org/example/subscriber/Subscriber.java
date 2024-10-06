@@ -22,6 +22,7 @@ public class Subscriber {
                 }
 
                 try {
+                    // Create a new SubscriberSocket for the given topic
                     SubscriberSocket subscriberSocket = new SubscriberSocket(topic);
                     subscriberSocket.connect(brokerIp, brokerPort);
                     subscriberSocket.startListening(); // Start listening for messages

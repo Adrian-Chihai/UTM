@@ -16,9 +16,22 @@ public class Publisher {
         PublisherSocket publisherSocket = new PublisherSocket();
         publisherSocket.connect("localhost", 8080);
 
-        if (publisherSocket.isConnected) {
-            Scanner scanner = new Scanner(System.in);
-            while (true) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            if (!publisherSocket.isConnected) {
+                System.out.println("Lost connection to the broker. Would you like to reconnect? (y/n)");
+                String input = scanner.nextLine();
+
+                if (input.equalsIgnoreCase("y")) {
+                    System.out.println("Attempting to reconnect...");
+                    publisherSocket.connect("localhost", 8080);
+                } else {
+                    System.out.println("Exiting Publisher.");
+                    publisherSocket.close(); // Close the socket before exiting
+                    break; // Exit the loop if the user doesn't want to reconnect
+                }
+            } else {
                 Payload payload = new Payload();
                 System.out.println("Enter topic:");
                 payload.topic = scanner.nextLine().toLowerCase();
@@ -29,14 +42,15 @@ public class Publisher {
                 String payloadString = mapper.writeValueAsString(payload);
                 System.out.println("Sending: " + payloadString);
                 byte[] payloadBytes = payloadString.getBytes(StandardCharsets.UTF_8);
-                System.out.println("bytes - " + payloadBytes);
 
-
-
+                // Send the payload
                 publisherSocket.send(payloadBytes);
             }
-        } else {
-            System.out.println("Failed to connect to the broker.");
         }
+
+        // Cleanup resources
+        scanner.close();
+        publisherSocket.close(); // Close the socket
+        System.out.println("Publisher stopped.");
     }
 }
