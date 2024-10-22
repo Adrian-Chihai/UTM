@@ -91,22 +91,18 @@ public class BrokerSocket {
     }
 
     private void handleMessage(byte[] data, ConnectionInfo<AsynchronousSocketChannel> connectionInfo) {
-        String message = new String(data).trim(); // Trim leading/trailing whitespace
+        String message = new String(data).trim();
 
         if (message.contains("subscribe#")) {
-            // Split the message by "subscribe#"
             String[] subscriptions = message.split("subscribe#");
 
-            // Iterate through the split subscriptions
             for (String subscription : subscriptions) {
-                // Check if the subscription is not empty and not a broken part
                 if (!subscription.isEmpty()) {
                     String topic = subscription.trim();
                     subscribeClientToTopic(connectionInfo.getSocket(), topic);
                 }
             }
         } else {
-            // If it's not a subscription message, assume it's a payload to forward
             forwardMessageToSubscribers(data);
         }
     }
