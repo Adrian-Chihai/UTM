@@ -12,7 +12,7 @@
 void dd_led_setup();
 void dd_led_turn_on();
 void dd_led_turn_off();
-void dd_led_is_on();
+int dd_led_is_on();
 void dd_led_toggle();
 
 #endif // DD_LED_H

@@ -1,0 +1,34 @@
+Leds:
+ *1 SYST - 'System LED' shows the system is receievin power and is working 
+	    properly:
+ *2 RPS - 'Redundant Power System LED'
+	   *if the LED is of the RPS is off;
+	   *if the LED is green the RPS is connected and ready to provide backup power;
+	   *if the LED is blinking green the RPS is connected but is unvailable because it is providing power to another device; 
+           *if the LED is amber the RPS is in standby mode or in fault condition;
+	   *if the LED is blinking amber the internal power supply in the switch has failed and the RPS is providing power.
+ *3 Port Status LED - indicates that the port status mode is selected when the LED is green.
+	              Port LEDs will display colors with differen meanings:
+ 		      *if the LED is off there is no link or the port was administratively shut down;
+		      *if the LED is green a link is present;
+		      *if the LED is blinking green there is activity and the port is sending or receiving data;
+  		      *if the LED is alternating green-amber, there is a link fault;
+		      *if the LED is amber the port is blocked to ensure that a loop does not exist in the forwarding domain and is not forwarding dat;
+		      *if the LED is blinking amber the port is blocked to prevent a possible loop in the forwarding domain.
+ *4 Port Duplex LED - indicates the port duplex mode is selected when the LED is green
+		      *when selected, port LED that are off are in half-duple mode;
+		      *if the port LED is green, the port is in full-duplex mode.
+ *5 Speed - indicates that the port speed is selected. 
+	    *if the LED is of the port is operating at 10 Mbps;
+            *if the LED is green the port is operating at 100 Mbps;
+	    *if the LED is blinking green the port is operating at 1000 Mbps.
+ *6 PoE - *if the LED is off, it indicates the PoE mode is not selected and that none of the ports have been denied power or placed in a fault condition;
+	  *if the LED is blinking amber, the PoE mode is not selected but at least one of the ports has been denied power or has a PoE fault;
+	  *if the LED is green, it indicates the PoE mode is selected and the port LEDs will display colors with different meanings; 
+          *if the port LED is off, the PoE is off. If the port LED is green, the PoE is on; *if the port LED is alternating green-amber, PoE is denied because providing power to the powered 		device will exceed the switch power capacity; 	 
+	  *if the LED is blinking amber, PoE is off because of a fault. If the LED is amber, PoE for the port has been disabled.
+
+- 28 GigabitEthernet interfaces
+- 0 4 range in vty lines
+- mac address SVI - 0060.2fde.172d
+- 

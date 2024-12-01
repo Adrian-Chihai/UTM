@@ -11,27 +11,31 @@ public class Subscriber {
         String brokerIp = "localhost"; // Change this to the broker's IP
         int brokerPort = 8080; // Change this to the broker's port
 
-        try (Scanner scanner = new Scanner(System.in)) {
+        // Create a single SubscriberSocket instance
+        SubscriberSocket subscriberSocket;
+        try {
+            subscriberSocket = new SubscriberSocket(); // Initialize the SubscriberSocket
+            subscriberSocket.connect(brokerIp, brokerPort); // Connect to the broker
+            subscriberSocket.startListening(); // Start listening for messages
+
+            Scanner scanner = new Scanner(System.in);
+
             while (true) {
-                System.out.println("Enter topic (or type 'exit' to quit): ");
+                System.out.println("Enter topic to subscribe (or type 'exit' to quit): ");
                 String topic = scanner.nextLine().toLowerCase();
 
                 if ("exit".equals(topic)) {
                     System.out.println("Exiting subscriber...");
-                    break; // Exit the loop if the user types "exit"
+                    break;
                 }
-
-                try {
-                    // Create a new SubscriberSocket for the given topic
-                    SubscriberSocket subscriberSocket = new SubscriberSocket(topic);
-                    subscriberSocket.connect(brokerIp, brokerPort);
-                    subscriberSocket.startListening(); // Start listening for messages
-                } catch (IOException e) {
-                    System.err.println("Error creating SubscriberSocket: " + e.getMessage());
-                } catch (InterruptedException e) {
-                    System.err.println("Connection interrupted: " + e.getMessage());
-                }
+                subscriberSocket.subscribe(topic);
             }
+
+            scanner.close(); // Close the scanner before exiting
+        } catch (IOException e) {
+            System.err.println("Error creating SubscriberSocket: " + e.getMessage());
+        } catch (InterruptedException e) {
+            System.err.println("Connection interrupted: " + e.getMessage());
         }
     }
 }

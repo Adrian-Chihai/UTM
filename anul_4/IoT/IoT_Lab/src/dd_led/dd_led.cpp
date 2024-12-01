@@ -13,9 +13,9 @@ void dd_led_turn_off()
 {
     digitalWrite(DD_LED_PIN, LOW);
 }
-void dd_led_is_on()
+int dd_led_is_on()
 {
-    return (digitalRead(DD_LED_PIN)==HIGH);
+    return (digitalRead(DD_LED_PIN) == HIGH);
 }
 void dd_led_toggle()
 {
